@@ -43,9 +43,9 @@ public class Result implements Serializable {
     }
 
 
-    public static Result fail(String status,String mess, Object data) {
+    public static Result fail(String code,String mess, Object data) {
         Result m = new Result();
-        m.setCode(status);
+        m.setCode(code);
         m.setData(data);
         m.setMsg(mess);
         return m;
