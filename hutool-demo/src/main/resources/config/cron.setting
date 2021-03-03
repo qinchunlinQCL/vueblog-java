@@ -1,0 +1,4 @@
+# 我是注释
+[com.qcl.job]
+TestJob.test = */3 * * * * *
+TestJob2.test = */10 * * * * *
