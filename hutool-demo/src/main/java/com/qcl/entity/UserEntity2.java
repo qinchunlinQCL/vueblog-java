@@ -10,10 +10,10 @@ import lombok.Data;
  * @createTime 2021年03月02日 11:06:00
  */
 @Data
-public class UserEntity {
+public class UserEntity2 {
 
     private Integer id;
     private String userName;
     private String passWord;
-    private String email;
+    private Integer age;
 }
