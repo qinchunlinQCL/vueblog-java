@@ -34,7 +34,7 @@ public class UserController {
      * @param user
      * @return
      */
-    @PostMapping("/save")
+    @PostMapping("save")
     public Object testUser(@Validated @RequestBody User user) {
         System.out.println(111);
         return user.toString();
